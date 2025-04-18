@@ -1,0 +1,221 @@
+/* Professional Website Theme */
+
+:root {
+  --navy-blue: #1e3a8a;
+  --navy-blue-light: #3b5bdb;
+  --navy-blue-dark: #1e3a8a;
+  --accent-blue: #3b82f6;
+  --transparent-black: rgba(17, 24, 39, 0.9);
+  --transparent-black-light: rgba(17, 24, 39, 0.7);
+}
+
+/* Text Colors */
+.text-navy-blue {
+  color: var(--navy-blue);
+}
+
+.text-accent-blue {
+  color: var(--accent-blue);
+}
+
+.text-transparent-black {
+  color: var(--transparent-black);
+}
+
+/* Background Colors */
+.bg-navy-blue {
+  background-color: var(--navy-blue);
+}
+
+.bg-navy-blue-light {
+  background-color: var(--navy-blue-light);
+}
+
+.bg-transparent-black {
+  background-color: var(--transparent-black);
+}
+
+/* Button Styles */
+.btn-navy {
+  background-color: var(--navy-blue);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-navy:hover {
+  background-color: var(--navy-blue-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.2);
+}
+
+.btn-outline-navy {
+  background-color: transparent;
+  border: 2px solid var(--navy-blue);
+  color: var(--navy-blue);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-navy:hover {
+  background-color: var(--navy-blue);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.2);
+}
+
+/* Card Styles */
+.card-professional {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-professional:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(30, 58, 138, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(30, 58, 138, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(30, 58, 138, 0);
+  }
+}
+
+.animate-pulse-navy {
+  animation: pulse 2s infinite;
+}
+
+/* Gradient Backgrounds */
+.bg-gradient-navy {
+  background: linear-gradient(135deg, var(--navy-blue) 0%, var(--accent-blue) 100%);
+}
+
+.bg-gradient-light {
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+}
+
+/* Section Styles */
+.section-divider {
+  height: 5px;
+  width: 60px;
+  background-color: var(--navy-blue);
+  margin: 0 auto;
+}
+
+/* Form Styles */
+.input-professional {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.input-professional:focus {
+  border-color: var(--navy-blue);
+  box-shadow: 0 0 0 2px rgba(30, 58, 138, 0.2);
+  outline: none;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: """;
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-size: 4rem;
+  font-family: serif;
+  color: rgba(30, 58, 138, 0.1);
+  line-height: 1;
+}
+
+/* Feature Icon */
+.feature-icon {
+  width: 50px;
+  eight: 50px;
+  border-radius: 50%;
+  background-color: rgba(30, 58, 138, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.feature-icon svg {
+  color: var(--navy-blue);
+}
+
+/* Hover Effects */
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+.hover-shadow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--navy-blue-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--navy-blue);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section-divider {
+    width: 40px;
+  }
+
+  .testimonial-card::before {
+    font-size: 3rem;
+  }
+}
