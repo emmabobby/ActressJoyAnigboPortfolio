@@ -53,19 +53,22 @@ export default function AboutSection() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <p className="text-transparent-black/80 mb-6">
-              My journey began on the stages of local theaters and has since expanded to international productions. I am
-              known for my versatility and commitment to each role, diving deep into the psychology of the characters I
-              portray.
+            Chiamaka Joy Anigbo, popularly known as Joyce Bernard, is a distinguished A-list Nollywood actress and producer, making significant strides in the Nigerian film industry. A woman of many talents, she wears multiple hats as a filmmaker, writer, actress, and realtor.
+Hailing from Enugu State, Nigeria, Joyce Bernard is widely celebrated for her ability to interpret roles with depth and authenticity. As a seasoned thespian, she is known for producing morally impactful films that not only entertain but also educate and promote African culture and tradition.
+
             </p>
 
             <p className="text-transparent-black/80 mb-6">
-              My work has been recognized with several awards, including the Nigerian Film Critics Award for Best
-              Actress. I believe in the power of storytelling to create empathy and understanding across cultures.
+            Born on September 22nd, she is the only single lady in a family of seven. Her academic accomplishments are nothing short of remarkable, holding multiple prestigious qualifications, including:
+- MBA in Project Management, M.Ed in Administration and Planning, B.Ed in Management Economics, M.C in Acting, NCE (Nigeria Certificate in Education)
+
             </p>
 
             <p className="text-transparent-black/80 mb-8">
-              When I'm not in front of the camera or on stage, I mentor young actors and participate in community
-              theater programs to help nurture the next generation of performers.
+            Joyce Bernard officially launched her acting and movie production career in 2018, and has since carved a niche for herself in the industry. Her impressive filmography includes movies such as:
+ Thick-Skinned, The Mistress, Onye Onu Uto, Ihe Ngbu, Afunwa, Gbaghara, Ije Ndu
+
+Beyond the silver screen, Joyce Bernard is also a realtor, actively working with the Nigerian Airforce Housing and Construction. When she's not captivating audiences with her performances, she’s overseeing real estate projects, demonstrating her versatility in both the entertainment and business sectors.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">

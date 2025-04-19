@@ -22,8 +22,8 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-transparent-black/80 mb-6 max-w-md">
-              Award-winning actress with a passion for bringing complex characters to life on stage and screen. With
-              over a decade of experience in film, television, and theater.
+            A talented Nollywood actress with a passion for bringing complex characters to life on screen. Since launching her professional career in 2018, she has steadily built a reputation for delivering compelling performances across film and television.
+            With a growing portfolio of impactful roles, she continues to make her mark in the Nigerian film industry as a dynamic storyteller and dedicated filmmaker.
             </p>
             <div className="flex space-x-4">
               {["instagram", "twitter", "facebook"].map((social) => (
@@ -67,13 +67,13 @@ export default function Footer() {
             <h3 className="font-bold text-transparent-black mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="text-transparent-black/80">
-                <strong className="text-transparent-black">Email:</strong> contact@chiamakajoy.com
+                <strong className="text-transparent-black">Email:</strong> joycebernardugo@gmail.com
               </li>
               <li className="text-transparent-black/80">
                 <strong className="text-transparent-black">Phone:</strong> +234 123 456 7890
               </li>
               <li className="text-transparent-black/80">
-                <strong className="text-transparent-black">Management:</strong> management@chiamakajoy.com
+                <strong className="text-transparent-black">Management:</strong> management@joycebernardugo.com
               </li>
               <li className="text-transparent-black/80">
                 <strong className="text-transparent-black">Location:</strong> Abuja, Nigeria
